@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="InputValueView" customModule="Kadai3" customModuleProvider="target">
+            <connections>
+                <outlet property="positiveSwitch" destination="AFN-X6-yCJ" id="61Y-xe-osb"/>
+                <outlet property="valueTextField" destination="h9m-8N-P7a" id="yh5-hk-hgu"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h9m-8N-P7a">
+                    <rect key="frame" x="157" y="54" width="100" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="5Tl-Zq-CER"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dzQ-UA-Lej">
+                    <rect key="frame" x="161.5" y="113" width="11" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="AFN-X6-yCJ">
+                    <rect key="frame" x="182.5" y="108" width="51" height="31"/>
+                </switch>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mos-F4-9g1">
+                    <rect key="frame" x="241.5" y="113" width="8" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="AFN-X6-yCJ" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="1Gm-tZ-G6k"/>
+                <constraint firstItem="AFN-X6-yCJ" firstAttribute="leading" secondItem="dzQ-UA-Lej" secondAttribute="trailing" constant="10" id="KcN-Dv-ODK"/>
+                <constraint firstItem="AFN-X6-yCJ" firstAttribute="top" secondItem="h9m-8N-P7a" secondAttribute="bottom" constant="20" id="YaO-r0-keC"/>
+                <constraint firstItem="h9m-8N-P7a" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="goc-bJ-Tbj"/>
+                <constraint firstItem="Mos-F4-9g1" firstAttribute="centerY" secondItem="AFN-X6-yCJ" secondAttribute="centerY" id="jhL-iC-dBJ"/>
+                <constraint firstItem="dzQ-UA-Lej" firstAttribute="centerY" secondItem="AFN-X6-yCJ" secondAttribute="centerY" id="oEd-H0-D68"/>
+                <constraint firstItem="Mos-F4-9g1" firstAttribute="leading" secondItem="AFN-X6-yCJ" secondAttribute="trailing" constant="10" id="tZG-sz-fcA"/>
+                <constraint firstItem="h9m-8N-P7a" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="10" id="uvU-21-2dL"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="44.927536231884062" y="77.678571428571431"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

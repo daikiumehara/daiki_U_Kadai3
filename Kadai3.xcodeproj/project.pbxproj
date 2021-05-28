@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A619DCE3265E89AA0066819E /* InputNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A619DCE2265E89AA0066819E /* InputNumberView.swift */; };
-		A619DCE5265E89E50066819E /* InputNumberView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A619DCE4265E89E50066819E /* InputNumberView.xib */; };
+		A61B2797265EABAF00B92D77 /* InputValueView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A61B2796265EABAF00B92D77 /* InputValueView.xib */; };
+		A61B2799265EABC100B92D77 /* InputValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61B2798265EABC100B92D77 /* InputValueView.swift */; };
 		A6C744AB265B439E005C1BDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C744AA265B439E005C1BDE /* AppDelegate.swift */; };
 		A6C744AD265B439E005C1BDE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C744AC265B439E005C1BDE /* SceneDelegate.swift */; };
 		A6C744AF265B439E005C1BDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C744AE265B439E005C1BDE /* ViewController.swift */; };
@@ -20,8 +20,8 @@
 
 /* Begin PBXFileReference section */
 		6510003B1EBF55096F1E04C9 /* Pods-Kadai3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kadai3.release.xcconfig"; path = "Target Support Files/Pods-Kadai3/Pods-Kadai3.release.xcconfig"; sourceTree = "<group>"; };
-		A619DCE2265E89AA0066819E /* InputNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputNumberView.swift; sourceTree = "<group>"; };
-		A619DCE4265E89E50066819E /* InputNumberView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InputNumberView.xib; sourceTree = "<group>"; };
+		A61B2796265EABAF00B92D77 /* InputValueView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InputValueView.xib; sourceTree = "<group>"; };
+		A61B2798265EABC100B92D77 /* InputValueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputValueView.swift; sourceTree = "<group>"; };
 		A6C744A7265B439E005C1BDE /* Kadai3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kadai3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6C744AA265B439E005C1BDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6C744AC265B439E005C1BDE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,8 +87,8 @@
 				A6C744AA265B439E005C1BDE /* AppDelegate.swift */,
 				A6C744AC265B439E005C1BDE /* SceneDelegate.swift */,
 				A6C744AE265B439E005C1BDE /* ViewController.swift */,
-				A619DCE2265E89AA0066819E /* InputNumberView.swift */,
-				A619DCE4265E89E50066819E /* InputNumberView.xib */,
+				A61B2798265EABC100B92D77 /* InputValueView.swift */,
+				A61B2796265EABAF00B92D77 /* InputValueView.xib */,
 				A6C744B0265B439E005C1BDE /* Main.storyboard */,
 				A6C744B3265B43A4005C1BDE /* Assets.xcassets */,
 				A6C744B5265B43A4005C1BDE /* LaunchScreen.storyboard */,
@@ -155,10 +155,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A619DCE5265E89E50066819E /* InputNumberView.xib in Resources */,
 				A6C744B7265B43A4005C1BDE /* LaunchScreen.storyboard in Resources */,
 				A6C744B4265B43A4005C1BDE /* Assets.xcassets in Resources */,
 				A6C744B2265B439E005C1BDE /* Main.storyboard in Resources */,
+				A61B2797265EABAF00B92D77 /* InputValueView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,10 +194,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A619DCE3265E89AA0066819E /* InputNumberView.swift in Sources */,
 				A6C744AF265B439E005C1BDE /* ViewController.swift in Sources */,
 				A6C744AB265B439E005C1BDE /* AppDelegate.swift in Sources */,
 				A6C744AD265B439E005C1BDE /* SceneDelegate.swift in Sources */,
+				A61B2799265EABC100B92D77 /* InputValueView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

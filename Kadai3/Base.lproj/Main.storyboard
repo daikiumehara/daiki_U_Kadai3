@@ -12,7 +12,7 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Kadai3" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="InputNumberView" customModule="Kadai3" customModuleProvider="target">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -47,7 +47,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Shs-2e-Iyk" customClass="InputNumberView" customModule="Kadai3" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Shs-2e-Iyk" customClass="InputValueView" customModule="Kadai3" customModuleProvider="target">
                                 <rect key="frame" x="10" y="54" width="120" height="120"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
@@ -55,7 +55,7 @@
                                     <constraint firstAttribute="width" constant="120" id="V6K-xX-LGn"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AX0-Mc-V7V" customClass="InputNumberView" customModule="Kadai3" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AX0-Mc-V7V" customClass="InputValueView" customModule="Kadai3" customModuleProvider="target">
                                 <rect key="frame" x="140" y="54" width="120" height="120"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
@@ -85,9 +85,9 @@
                     </view>
                     <connections>
                         <outlet property="answerLabel" destination="Fe3-4f-Mvs" id="02H-qN-OGt"/>
-                        <outlet property="firstInputView" destination="Shs-2e-Iyk" id="zPW-DJ-Lli"/>
+                        <outlet property="firstInputView" destination="Shs-2e-Iyk" id="hXr-bg-B9D"/>
                         <outlet property="firstValueLabel" destination="BIa-Wa-cps" id="PqH-sf-yEs"/>
-                        <outlet property="secondInputView" destination="AX0-Mc-V7V" id="6cQ-rL-xg0"/>
+                        <outlet property="secondInputView" destination="AX0-Mc-V7V" id="GZE-s2-LtL"/>
                         <outlet property="secondValueLabel" destination="y2I-Ip-v8l" id="JKy-Hz-1WT"/>
                     </connections>
                 </viewController>
