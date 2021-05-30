@@ -8,16 +8,19 @@
 import UIKit
 
 final class ViewController: UIViewController {
-    @IBOutlet var firstInputView: InputValueView!
-    @IBOutlet var secondInputView: InputValueView!
+    @IBOutlet private var firstInputView: InputSignedValueView!
+    @IBOutlet private var secondInputView: InputSignedValueView!
     @IBOutlet private var firstValueLabel: UILabel!
     @IBOutlet private var secondValueLabel: UILabel!
     @IBOutlet private var answerLabel: UILabel!
+
     @IBAction private func calcButtonDidTapped(_ sender: Any) {
-        let firstValue = firstInputView.getValue()
-        let secondValue = secondInputView.getValue()
-        firstValueLabel.text = String(firstValue)
-        secondValueLabel.text = String(secondValue)
-        answerLabel.text = String(firstValue + secondValue)
+        let firstSignedValue = firstInputView.signedValue ?? 0
+        let secondSignedValue = secondInputView.signedValue ?? 0
+
+        firstValueLabel.text = String(firstSignedValue)
+        secondValueLabel.text = String(secondSignedValue)
+
+        answerLabel.text = String(firstSignedValue + secondSignedValue)
     }
 }
