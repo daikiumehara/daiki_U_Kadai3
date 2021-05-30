@@ -1,5 +1,5 @@
 //
-//  InputValueView.swift
+//  InputSignedValueView.swift
 //  Kadai3
 //
 //  Created by daiki umehara on 2021/05/27.
@@ -7,9 +7,10 @@
 
 import UIKit
 
-class InputValueView: UIView {
-    @IBOutlet var valueTextField: UITextField!
-    @IBOutlet var positiveSwitch: UISwitch!
+class InputSignedValueView: UIView {
+    @IBOutlet private var valueTextField: UITextField!
+    @IBOutlet private var positiveSwitch: UISwitch!
+
     override init(frame: CGRect) {
         super.init(frame: frame)
         loadNib()
@@ -26,13 +27,15 @@ class InputValueView: UIView {
         view.frame = self.bounds
         self.addSubview(view)
     }
-    
-    func getValue() -> Int {
-        guard let valueString = valueTextField.text else { return 0 }
-        guard let value = Int(valueString) else { return 0 }
+
+    var signedValue: Int? {
+        guard let valueString = valueTextField.text,
+              let value = Int(valueString) else { return nil }
+
         if positiveSwitch.isOn {
             return -value
+        } else {
+            return value
         }
-        return value
     }
 }

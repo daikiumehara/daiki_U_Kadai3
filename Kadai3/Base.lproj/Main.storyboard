@@ -47,7 +47,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Shs-2e-Iyk" customClass="InputValueView" customModule="Kadai3" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Shs-2e-Iyk" customClass="InputSignedValueView" customModule="Kadai3" customModuleProvider="target">
                                 <rect key="frame" x="10" y="54" width="120" height="120"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
@@ -55,7 +55,7 @@
                                     <constraint firstAttribute="width" constant="120" id="V6K-xX-LGn"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AX0-Mc-V7V" customClass="InputValueView" customModule="Kadai3" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AX0-Mc-V7V" customClass="InputSignedValueView" customModule="Kadai3" customModuleProvider="target">
                                 <rect key="frame" x="140" y="54" width="120" height="120"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
